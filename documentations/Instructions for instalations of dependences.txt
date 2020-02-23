@@ -1,0 +1,9 @@
+Execute the commands about in a CLI Git
+
+npm install express --save
+
+npm install mysql --save
+
+npm install typescript --save
+
+npm install cli-color --save

@@ -9,12 +9,23 @@ A simple model of WebService with Node.js
 
 # Version
 
-* 1.0.0
+* 1.0.1
+
+# News
+
+* Generated logs
+* Create the bat of inicializated server
+* Get IP of user
+* Centered the function responsable for generate the header of json
+* Integrated application with database mysql
+* Implemented colors for server status
 
 # Dependences
 
 * Node.js: ^12.14.0
-* Express: ^4.17.1
+* express: ^4.17.1
+* cli-color: ^2.0.0
+* mysql": ^2.18.1
 
 # License
 

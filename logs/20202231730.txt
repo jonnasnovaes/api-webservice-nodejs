@@ -1,0 +1,1 @@
+{"result":{"Propriedade":"Jhonnata Novaes","Versão":"1.0.0","Data":"23/2/2020","Hora":"17:30","Ip":"::1","REGISTROS":{"status":"Server is Running !"}}}
