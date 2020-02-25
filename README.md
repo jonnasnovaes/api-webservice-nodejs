@@ -12,6 +12,31 @@ A simple model of WebService with Node.js. This WebService allows you to view th
 `ddns:port/ws` - Return the all data from municipiality</br>
 `ddns:port/ws/<name_of_municipialities>` - Return the all data from all municipialities
 
+### Example of request
+
+```
+{
+  result: {
+    Propriedade: "Jhonnata Novaes",
+    Versão: "1.0.1",
+    Data: "25/2/2020",
+    Hora: "19:50",
+    Ip: "::1",
+    REGISTROS: [
+          {
+            codigo_ibge: "3303302",
+            nome: "Niterói",
+            latitude: "-22.8832",
+            longitude: "-43.1034",
+            capital: "0",
+            codigo_uf: "33"
+          } 
+       ]
+  }
+}
+
+```
+
 
 # Version
 
