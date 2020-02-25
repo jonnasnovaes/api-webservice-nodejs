@@ -6,22 +6,22 @@ module.exports = {
 
         switch (param){
             case 'error':
-                console.log(cli.red('\n\n' + msg + '\n'));
+                console.log(' ' + cli.red('\n\n' + msg + '\n'));
                 break;
             case 'warn':
-                console.log(cli.yellow('\n\n' + msg + '\n'));
+                console.log(' ' + cli.yellow('\n\n' + msg + '\n'));
                 break;
             case 'success':
-                console.log(cli.green('\n' + msg));
+                console.log(' ' + cli.green('\n' + msg));
                 break;
             case 'mensagem':
-                console.log(cli.yellowBright(msg));
+                console.log(' ' + cli.yellowBright(msg));
                 break;
             case 'clear':
                 console.log('\033[2J');
                 break;
             case 'start':
-                console.log(cli.cyan(msg + '\n'));
+                console.log(cli.cyan(' ' + msg + '\n'));
                 break;
         }
 
