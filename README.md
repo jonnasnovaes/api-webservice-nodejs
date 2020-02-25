@@ -37,6 +37,13 @@ A simple model of WebService with Node.js. This WebService allows you to view th
 
 ```
 
+# How to use 
+
+1. Make the update of municipios.sql found in doc/database inside your database mysql.
+2. Verify the adress of created database with the code in src/model/connection.js.   
+3. Execute the application with command "node index.js" in a terminal.
+4. Make a request with anything urls of example above.
+
 
 # Version
 
