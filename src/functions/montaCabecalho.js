@@ -5,7 +5,7 @@ const dateTime = require('./dateTimeLog');
 var json = {
     result: {
         Propriedade: "Jhonnata Novaes",
-        Versão: "1.0.0",
+        Versão: "1.0.2",
         Data: dateTime.data(),
         Hora: dateTime.hora(),
         Ip: ''

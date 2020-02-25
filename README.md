@@ -5,27 +5,38 @@
 
 # Web Service
 
-A simple model of WebService with Node.js
+A simple model of WebService with Node.js. This WebService allows you to view the data from the Brazilian municipialities using the following URLs:
+
+
+`ddns:port/` - Return the server status</br>
+`ddns:port/ws` - Return the all data from municipiality</br>
+`ddns:port/ws/<name_of_municipialities>` - Return the all data from all municipialities
+
 
 # Version
 
-* 1.0.1
+* 1.0.2
 
 # News
 
 * Generated logs
 * Create the bat of inicializated server
-* Get IP of user
+* Get IP of user and input in header of request
 * Centered the function responsable for generate the header of json
 * Integrated application with database mysql
 * Implemented colors for server status
+* Added function that returns all counties
+* Added resource that enable basic authentication  
+
 
 # Dependences
 
-* Node.js: ^12.14.0
+* nodeJS: ^12.14.0
 * express: ^4.17.1
+* express-basic-auth: ^1.2.0
 * cli-color: ^2.0.0
-* mysql": ^2.18.1
+* sync-mysql: ^3.0.1
+    
 
 # License
 

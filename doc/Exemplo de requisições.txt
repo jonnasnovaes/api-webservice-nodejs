@@ -1,0 +1,5 @@
+ip:porta/   - Retorna o status do servidor
+
+ip:porta/ws - Retorna os dados de todos os municípios
+
+ip:porta/ws/<nome_do_municipio> - Retorna os dados exclusivos daquele município

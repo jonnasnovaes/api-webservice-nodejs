@@ -1,0 +1,7 @@
+
+            //json.ibge        = rows[0].codigo_ibge;
+            //json.estado      = rows[0].nome;
+            //json.latitude    = rows[0].latitude;
+            //json.longitude   = rows[0].longitude;
+            //json.capital     = rows[0].capital;
+            //json.uf          = rows[0].codigo_uf;
